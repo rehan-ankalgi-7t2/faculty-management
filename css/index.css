@@ -1,0 +1,84 @@
+*{
+    border: none;
+}
+
+body{
+    height: 120vh;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #232323;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #1e90ff;
+    color: white;
+}
+
+.admin__form {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin__form  form{
+    height: 300px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #1e90ff;
+}
+
+h1{
+    margin-bottom: -30px;
+}
+
+.admin__form  form::before{
+    position: absolute;
+    content: '';
+    height: 250px;
+    width: 250px;
+    background: #1e90ff;
+    opacity: 20%;
+    transform: translate(-50px, 100px);
+    z-index: -1;
+}
+
+.admin__form form input {
+    height: 35px;
+    width: 300px;
+    background: rgba(20,20,20,0.1);
+    color: #323232;
+    font-size: 16px;
+    margin-left: 130px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* box-shadow: -10px 10px 40px  rgba(50,50,50,0.5); */
+}
+
+.admin__form form button {
+    height: 30px;
+    width: 100px;
+    background: #1e90ff;
+    color: white;
+    margin-left: -100px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #323232;
+    position: absolute;
+    margin-top: 200px;
+}
